@@ -1,0 +1,58 @@
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+out/
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore `.gradle` folders under sleep module
+sleep/**/.gradle/
+sleep/**/build/
+
+### Logs ###
+*.log
+logs/
+*.out
+
+### OS Junk ###
+.DS_Store
+Thumbs.db
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Spring Boot ###
+target/
+spring.log
+
+### Environment files ###
+.env
+*.env
+*.secret
+*.key
+*.pem
+
+### Test Reports ###
+test-output/
+surefire-reports/
+jacoco.exec
+
+### VS Code (if someone uses it) ###
+.vscode/
+
+### Local dev files ###
+*.local
+*.swp
+
+### Temporary files ###
+*.tmp
+*.bak
+*.orig
+*.rej
